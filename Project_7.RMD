@@ -2,7 +2,7 @@
 title: "Regression Models"
 author: "Viktor M"
 date: "Friday, July 24, 2015"
-output: pdf_document
+output: html_document
 ---
 
 [My github page](https://github.com/dainova/7_Regression Models)
@@ -141,9 +141,13 @@ pairs(mtcars, panel=panel.smooth, main="Results of Pairs f Motor Trend Car Road 
 
 2. Boxplot of MPG vs. Transmission  
 ```r
-boxplot(mpg ~ am, xlab="Transmission (0 = Automatic, 1 = Manual)", ylab="MPG",
-        main="Boxplot of MPG vs. Transmission")
+boxplot(mpg ~ am, xlab="Transmission (0 = Automatic, 1 = Manual)", ylab="MPG", col=(c("gold","darkgreen")),
+main="Boxplot of MPG vs. Transmission")
 ```
+
+
+
+
 ![plot of chunk unnamed-chunk-11](figure/plot02.png)  
 
 
